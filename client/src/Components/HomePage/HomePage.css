@@ -1,0 +1,145 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+.logo{
+    height: 50px;
+    width: 60px;
+}
+.roboto{
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.49;
+    color: #000000;
+    font-weight: bold;
+}
+.navheadlinks{
+    margin: 0px 20px;
+}
+.belownav{
+    /* height: 8px; */
+    /* background-color: rgb(211, 207, 207); */
+    box-shadow: 0px 3px 6px #0000000F;
+}
+.light{
+    width: 28px;
+    height: 28px;
+}
+.left{
+    margin-left:450px;
+}
+.indileft{
+    margin-right: 30px;
+    padding-top: 7px;
+}
+.navcolor:hover{
+    color: black;
+}
+.signup{
+    color: #7ECB20;
+}
+.signup:hover{
+    color: #7ECB20;
+}
+.navcolor{
+    color: black;
+    
+}
+.RegisterBtn{
+    color:  white;
+    background-color:#7ECB20; 
+    border: #7ECB20;
+    border-radius: 19px;
+    /* box-shadow:0px 0px 5px rgba(0, 0, 0, 0.2); */
+    font-size: 15px;
+    padding: 5px 35px ; 
+    outline: 0 !important;
+    opacity: 1;
+}
+
+.Started{
+    color:  white;
+    background-color:#7ECB20; 
+    border: #7ECB20;
+    border-radius: 27px;
+    font-weight: bold;
+    /* box-shadow:0px 0px 5px rgba(0, 0, 0, 0.2); */
+    font-size: 20px;
+    padding: 5px 35px ; 
+    outline: 0 !important;
+    opacity: 1;
+    width: 200px;
+    height: 50px;
+}
+
+.signupbtn{
+    color:  white;
+    background-color:#7ECB20; 
+    border: #7ECB20;
+    border-radius: 10px;
+    font-weight: bold;
+    /* box-shadow:0px 0px 5px rgba(0, 0, 0, 0.2); */
+    font-size: 20px;
+    padding: 5px 35px ; 
+    outline: 0 !important;
+    opacity: 1;
+    width: 300px;
+    height: 45px;
+}
+
+.Started:hover{
+    background-color:#9ae043;  
+}
+.middle{
+    margin-top: 150px;
+}
+.padall{
+    padding: 15px;
+}
+.padbot{
+    padding-bottom: 15px;
+}
+.padbot2x{
+    padding-bottom: 40px;
+}
+.text{
+    font-weight: bold;
+    color: black;
+}
+.textotp{
+    border-radius: 20px;
+    width: 430px;
+    height: 50px;
+    
+}
+.arrow{
+    cursor: pointer;
+    margin-top: 10px;
+    width: 50px;
+    height: 20px;
+}
+.tick{
+    color: #9ae043;
+}
+.forgot{
+    text-align: right;
+}
+.textleft{
+    text-align: left;
+}
+.pointer{
+    cursor: pointer;
+}
+@media only screen and (max-width: 600px){
+    .indileft{
+        margin-right: 0px;
+    }
+    .left{
+        margin-left: 0;
+    }
+    .middle{
+        margin-top: 80px;
+    }
+    .textotp{
+        width: 300px;
+        height: 30px;
+    }
+}
